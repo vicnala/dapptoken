@@ -1,9 +1,7 @@
-const SimpleStorage = artifacts.require("SimpleStorage");
-const TutorialToken = artifacts.require("TutorialToken");
-const ComplexStorage = artifacts.require("ComplexStorage");
+const Token = artifacts.require("Token");
 
-module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
-  deployer.deploy(TutorialToken);
-  deployer.deploy(ComplexStorage);
+module.exports = async function(deployer) {
+  const accounts = await web3.eth.getAccounts();
+
+  await deployer.deploy(Token);
 };
