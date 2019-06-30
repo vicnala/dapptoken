@@ -32,3 +32,14 @@ truffle migrate --reset
 cd app
 npm start
 ```
+
+## Setup bootstrap
+
+```bash
+npm install --save bootstrap react-bootstrap
+```
+
+index.js
+```js
+import 'bootstrap/dist/css/bootstrap.css';
+```

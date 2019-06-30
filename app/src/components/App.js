@@ -1,6 +1,6 @@
 import React from 'react';
 import { drizzleReactHooks } from 'drizzle-react';
-import Accounts from './components/Accounts';
+import Accounts from './Accounts';
 
 import "./App.css";
 

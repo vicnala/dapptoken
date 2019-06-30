@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { Drizzle } from 'drizzle';
 import { drizzleReactHooks } from 'drizzle-react';
 
-import './index.css';
-import App from './App';
+import App from './components/App';
+import 'bootstrap/dist/css/bootstrap.css';
 import * as serviceWorker from './serviceWorker';
 
 import drizzleOptions from "./drizzleOptions";
