@@ -1,22 +1,17 @@
-import React, { Component } from "react";
-import { DrizzleProvider } from "drizzle-react";
-import { LoadingContainer } from "drizzle-react-components";
+import React from 'react';
+import { drizzleReactHooks } from 'drizzle-react';
+import Accounts from './Accounts';
 
 import "./App.css";
 
-import drizzleOptions from "./drizzleOptions";
-import MyContainer from "./MyContainer";
+export default () => {
+  const drizzleState = drizzleReactHooks.useDrizzleState(drizzleState => ({
+    accounts: drizzleState.accounts,
+    web3: drizzleState.web3,
+  }));
 
-class App extends Component {
-  render() {
-    return (
-      <DrizzleProvider options={drizzleOptions}>
-        <LoadingContainer>
-          <MyContainer />
-        </LoadingContainer>
-      </DrizzleProvider>
-    );
-  }
+  return <Accounts
+    accounts={drizzleState.accounts}
+    web3={drizzleState.web3}
+  />;
 }
-
-export default App;
