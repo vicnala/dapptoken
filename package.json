@@ -1,5 +1,5 @@
 {
-  "name": "drizzle-box",
+  "name": "token-dapp",
   "version": "1.0.0",
   "description": "",
   "main": "truffle-config.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/truffle-box/drizzle-box.git"
+    "url": "git+https://github.com/al2blockchain/drizzle-react-hooks-token-dapp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/truffle-box/drizzle-box/issues"
+    "url": "https://github.com/al2blockchain/drizzle-react-hooks-token-dapp/issues"
   },
-  "homepage": "https://github.com/truffle-box/drizzle-box#readme",
+  "homepage": "https://github.com/al2blockchain/drizzle-react-hooks-token-dapp#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",

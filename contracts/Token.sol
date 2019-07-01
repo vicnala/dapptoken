@@ -5,8 +5,8 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 contract Token {
   using SafeMath for uint;
 
-  string public name = "Token Name";
-  string public symbol = "TNT";
+  string public name = "DApp Token";
+  string public symbol = "DAPP";
   uint256 public decimals = 18;
   uint256 public totalSupply;
 

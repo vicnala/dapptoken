@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Token DApp",
+  "name": "React-Bootstrap-Drizzle-Hooks Token DApp",
   "icons": [
     {
       "src": "favicon.ico",

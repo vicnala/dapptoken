@@ -3,8 +3,6 @@ import { drizzleReactHooks } from 'drizzle-react';
 import Nav from './Nav';
 import Content from './Content';
 
-import "./App.css";
-
 export default () => {
   // https://github.com/trufflesuite/drizzle-react#react-hooks-support-experimental
   const drizzleState = drizzleReactHooks.useDrizzleState(drizzleState => ({
@@ -17,7 +15,7 @@ export default () => {
     <div>
       <Nav accounts={drizzleState.accounts} />
       {
-        drizzle && drizzle.contractList.length === 2 ?
+        drizzle && drizzle.contractList.length === 1 ?
         <Content /> :
         <div className="content">
           <p className="text-white">
