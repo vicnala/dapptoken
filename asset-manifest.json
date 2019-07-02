@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dapptoken/static/css/main.11c7cd58.chunk.css",
+    "main.js": "/dapptoken/static/js/main.0df8f16a.chunk.js",
+    "main.js.map": "/dapptoken/static/js/main.0df8f16a.chunk.js.map",
+    "runtime~main.js": "/dapptoken/static/js/runtime~main.a719e265.js",
+    "runtime~main.js.map": "/dapptoken/static/js/runtime~main.a719e265.js.map",
+    "static/css/2.545c6387.chunk.css": "/dapptoken/static/css/2.545c6387.chunk.css",
+    "static/js/2.a9a432e2.chunk.js": "/dapptoken/static/js/2.a9a432e2.chunk.js",
+    "static/js/2.a9a432e2.chunk.js.map": "/dapptoken/static/js/2.a9a432e2.chunk.js.map",
+    "index.html": "/dapptoken/index.html",
+    "precache-manifest.00b4ade0b4de2778824eabb3cb9a01b6.js": "/dapptoken/precache-manifest.00b4ade0b4de2778824eabb3cb9a01b6.js",
+    "service-worker.js": "/dapptoken/service-worker.js",
+    "static/css/2.545c6387.chunk.css.map": "/dapptoken/static/css/2.545c6387.chunk.css.map",
+    "static/css/main.11c7cd58.chunk.css.map": "/dapptoken/static/css/main.11c7cd58.chunk.css.map"
+  }
+}
