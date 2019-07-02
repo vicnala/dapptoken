@@ -5,8 +5,8 @@ A React/Drizzle Hooks Token DApp.
 ## Create a Drizzle Box
 
 ```
-mkdir capstone-hooked
-cd capstone-hooked
+mkdir drizzle-react-hooks-token-dapp
+cd drizzle-react-hooks-token-dapp
 truffle unbox drizzle
 ```
 
