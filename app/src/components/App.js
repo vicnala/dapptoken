@@ -20,7 +20,7 @@ export default () => {
         <div className="content">
           <p className="text-white">
             The smart contract is not on the current network.
-            Please select another network with Metamask
+            Please select the Rinkeby network with Metamask
           </p>
         </div>
       }
