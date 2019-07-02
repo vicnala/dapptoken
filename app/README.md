@@ -43,3 +43,32 @@ index.js
 ```js
 import 'bootstrap/dist/css/bootstrap.css';
 ```
+
+## Publish to github pages
+
+First upload your code to a GitHub repo.
+
+Add homepage and deploy scripts to package.json:
+```json
+{
+  "homepage": "https://vicnala.github.io/dapptoken",
+  "scripts":{
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+  }
+}
+```
+
+Install gh-pages:
+```
+npm install --save gh-pages
+```
+
+Deploy:
+```
+npm run deploy
+```
+
+## License
+
+MIT © Víctor Navarro.

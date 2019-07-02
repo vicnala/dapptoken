@@ -92,3 +92,7 @@ module.exports = {
   }
 };
 ```
+
+## License
+
+MIT © Víctor Navarro.
