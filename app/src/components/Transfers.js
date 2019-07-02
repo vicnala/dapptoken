@@ -23,7 +23,7 @@ export default () => {
     <Card bg="dark" text="white">
       <Card.Body>
         <Card.Title>Transfers</Card.Title>
-        <Table variant="dark">
+        <Table responsive size="sm" variant="dark">
           <thead>
             <tr>
               <th>From</th>
@@ -35,8 +35,10 @@ export default () => {
             {
               values.map((transfer, index) => {
                 return (
-                  <tr key={index}>
-                    <td style={{ color: "#dc3545" }}>{transfer.from}</td>
+                  <tr key={index} size="sm">
+                    <td style={{ color: "#dc3545" }}>
+                      {transfer.from}
+                    </td>
                     <td style={{ color: "#28a745" }}>{transfer.to}</td>
                     <td>{fromWei(transfer.value)}</td>
                   </tr>

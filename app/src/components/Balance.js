@@ -19,7 +19,7 @@ export default () => {
     <Card bg="dark" text="white">
       <Card.Body>
         <Card.Title>Balance</Card.Title>
-          <Table variant="dark">
+          <Table responsive variant="dark">
             <tbody>
               <tr>
                 <td>ETH</td>
