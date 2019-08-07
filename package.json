@@ -1,6 +1,6 @@
 {
   "name": "token-dapp",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "",
   "main": "truffle-config.js",
   "directories": {
@@ -31,8 +31,8 @@
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^3.0.0",
     "dotenv": "^8.0.0",
-    "openzeppelin-solidity": "^2.1.1",
-    "truffle-hdwallet-provider": "^1.0.12",
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle-hdwallet-provider": "^1.0.15",
     "truffle-hdwallet-provider-privkey": "^0.3.0"
   }
 }
